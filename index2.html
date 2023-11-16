@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+      <h1 id="h1">false</h1>
+      <!-- Rounded switch
+      <label class="switch" ><input type="checkbox"> <span class="slider round"></span></label> -->
+      <br><br><br><br>
+      <table border="2" cellpedding="2" align="center">
+        <tr>
+          <td><button style="background-color: black;" onclick="btn1()" id="lampa"><img src="images/onLight.png"></button></td>
+            <td></td>
+            <td><button style="background-color: red;" id="id" >B</button></td>
+            <td></td>
+            <td><input type="range" id="ranger1" onclick="rangerValue1()"></td>
+            <td></td>
+            <td><label id="radio1">50</label><input type="radio" checked></td>
+            <td><img src="images/offLight2.png" id="lightSwich1" style="height: 100px; width: 100px;"></td>
+        </tr>
+        <tr>
+            <td><img src="images/offLigh.png" id="lamp2"></td>
+            <td></td>
+            <td><button>D</button></td>
+            <td></td>
+            <td><input type="range" id="ranger2" onclick="rangerValue2()"></td>
+            <td></td>
+            <td> <label id="radio2">50</label>  <input type="radio"></td>
+            <td><label class="switch" ><input type="checkbox" id="checkboxSilnder" onclick="checkingControl()"><span class="slider round"></span></label></td>
+        </tr>
+      </table>
+
+      <script src="app.js"></script>
+</body>
+</html>

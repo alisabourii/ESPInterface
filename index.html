@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-      <h1 id="h1">false</h1>
+<body style="align-items: center;">
+      <h1>ŞSY MTAL IOT INTERFACE</h1>
       <!-- Rounded switch
       <label class="switch" ><input type="checkbox"> <span class="slider round"></span></label> -->
       <br><br>
-      <table border="0" cellpedding="0" align="center">
+      <table border="0" cellpedding="0" style="width: 500px;" align="center">
         <tr>
             <div>
-             <td><img src="images/offLight2.png" id="lightSwich1" style="height: 100px; width: 100px;"></td>
-             <td><img src="images/offLight2.png" id="lightSwich2" style="height: 100px; width: 100px;"></td>
+             <td><img src="images/offLight2.png" id="lightSwich1" style="height: 100px; width: 100px;" draggable="false"></td>
+             <td><img src="images/offLight2.png" id="lightSwich2" style="height: 100px; width: 100px;" draggable="false"></td>
             </div>
             <td><input type="range" id="ranger1" onclick="rangerValue1()"></td>
             <td></td>
@@ -24,7 +24,7 @@
     
         <tr>
             <div>
-              <td><label class="switch" ><input type="checkbox" id="checkboxSilnder" onclick="checkingControl()"><span class="slider round"></span></label></td>
+              <td><label class="switch"><mark id="state1" style="color: transparent; background-color: transparent;">1</mark><input type="checkbox" id="checkboxSilnder" onclick="checkingControl()"><span class="slider round"></span></label></td>
               <td><label class="switch" ><input type="checkbox" id="checkboxSilnder2" onclick="checkingControl2()"><span class="slider round"></span></label></td>
             </div>
             <td><input type="range" id="ranger2" onclick="rangerValue2()"></td>
@@ -34,10 +34,10 @@
 
           <tr>
             <div>
-             <td><img src="images/offLight2.png" id="lightSwich3" style="height: 100px; width: 100px;"></td>
-             <td><img src="images/offLight2.png" id="lightSwich4" style="height: 100px; width: 100px;"></td>
+             <td><img src="images/offLight2.png" id="lightSwich3" style="height: 100px; width: 100px;" draggable="false"></td>
+             <td><img src="images/offLight2.png" id="lightSwich4" style="height: 100px; width: 100px;" draggable="false"></td>
             </div>
-            <td><input type="radio" checked class="chanageColor"></td>
+            <td><input type="radio"></td>
             <td><input type="radio"></td>
         </tr>
         <tr>

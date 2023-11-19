@@ -86,3 +86,18 @@ function checkingControl4(){
         myImg.src = "images/offLight2.png"
         exState4=false;} 
 }
+
+radioSTATE = false;
+function RadioCheck(){
+    let event = document.getElementById("sicaklikRadio");
+    if(radioSTATE === false){
+        event.checked = true;
+        radioSTATE = true;
+    }
+    else{
+        event.checked = false;
+        radioSTATE = false;
+    }
+
+
+}

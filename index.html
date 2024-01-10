@@ -1,70 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body style="align-items: center;">
-      <h1>ŞSY MTAL IOT INTERFACE</h1>
-      <!-- Rounded switch
-      <label class="switch" ><input type="checkbox"> <span class="slider round"></span></label> -->
-      <br><br>
-      <table border="0" cellpedding="0" style="width: 650px;" align="center">
+<body style="background-color: rgb(157, 235, 235);">
+    
+    <table border="0px" padding="0px" align="center" style="margin-top: 200px;">
         <tr>
-            <div>
-             <td><img src="images/offLight2.png" id="lightSwich1" style="height: 100px; width: 100px;" draggable="false"></td>
-             <td><img src="images/offLight2.png" id="lightSwich2" style="height: 100px; width: 100px;" draggable="false"></td>
-            </div>
-            <dv id="progreassbar">
-              <td><label style="color: gold;">Servo1  </label><input type="range" id="ranger1" onclick="rangerValue1()" class="rangoEfect" min="0" max="180"><label id="radio1">   50</label></td>
-            </dv>
+            <td></td>
+            <td><a href="#yukari"><img src="imgs/yukari.png" alt="dnm" draggable="false"></a></td>
             <td></td>
         </tr>
-        
         <tr>
-            <div>
-              <td><label class="switch"><mark id="state1" style="color: transparent; background-color: transparent;">1</mark><input type="checkbox" id="checkboxSilnder" onclick="checkingControl()"><span class="slider round"></span></label></td>
-              <td><label class="switch" ><input type="checkbox" id="checkboxSilnder2" onclick="checkingControl2()" ><span class="slider round"></span></label></td>
-            </div>
-              <td><label style="color: gold;">Servo2  </label><input type="range" id="ranger2" onclick="rangerValue2()" min="0" max="180"><label id="radio2">          50</label></td> 
-            <td> </td>
-        </tr>
-
-        <tr>
-          <td></td>
+            <td><a href="#sol"><img src="imgs/sol.png" alt="" draggable="false"></a></td>
+            <td> <a href="#dur"><img src="imgs/orta.png" alt="" style="width: 65px;" draggable="false"></a></td>
+            <td><a href="#sag"><img src="imgs/sag.png" alt="" draggable="false"></a></td>
         </tr>
         <tr>
-          <td></td>
+            <td></td>
+            <td><a href="#asagi"><img src="imgs/asagi.png" alt="" draggable="false"></a></td>
+            <td></td>
         </tr>
+    </table>
+    <br><br><br><br><br><br>
+    <table align="center">
         <tr>
-          <td></td>
-        </tr>   
-        <tr>
-          <td></td>
+            <td><input type="range" min="0" max="180" title="ranger1"></td>
+            <td>  </td>
+            <td><input type="range" min="0" max="180" title="ranger2"></td>
         </tr>
-        <tr>
-          <td></td>
-        </tr>   
-        <tr>
-          <td></td>
-        </tr>   
-        <tr>
-            <div>
-             <td><img src="images/offLight2.png" id="lightSwich3" style="height: 100px; width: 100px;" draggable="false"></td>
-             <td><img src="images/offLight2.png" id="lightSwich4" style="height: 100px; width: 100px;" draggable="false"></td>
-            </div>
-            <td><label>Sıcaklık uyarı <input type="radio" id="sicaklikRadio"></label></td>
-        </tr>
-        <tr>
-            <div>
-              <td><label class="switch" ><input type="checkbox" id="checkboxSilnder3" onclick="checkingControl3()"><span class="slider round"></span></label></td>
-              <td><label class="switch" ><input type="checkbox" id="checkboxSilnder4" onclick="checkingControl4()"><span class="slider round"></span></label></td>
-            </div>
-          </tr>
-      </table>
-      <input type="button" value="KURT" onclick="RadioCheck()">
-      <script src="app.js"></script>
+    </table>
 </body>
 </html>
